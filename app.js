@@ -16,6 +16,27 @@ var settings = {
     httpAdminRoot:"/",
     httpNodeRoot: "/api",
     //userDir: "/data/",
+    editorTheme: {
+    page: {
+            title: "Rodened",
+            //favicon: " ",
+            //css: " ",
+            //scripts: [ "/absolute/path/to/custom/script/file", "/another/script/file"]
+        },
+        header: {
+            title: "Rodened",
+            image: null, //"https://www.rodened.com/images/rodened_vit_b.png",            
+            url: "http://rodened.com" // optional url to make the header text/image a link to this url
+        },
+        deployButton: {
+            type:"simple",
+            label:"Save",
+            icon: null // "/absolute/path/to/deploy/button/image" or null to remove image
+        },   
+    projects: {
+        enabled: false
+    }
+},
     functionGlobalContext: { }    // enables global context
 };
 
