@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: node-red embeded demo
+  env: node
+  buildCommand: yarn && yarn build
+  startCommand: node app.js
