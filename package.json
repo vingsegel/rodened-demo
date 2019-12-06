@@ -1,0 +1,21 @@
+{
+  "name": "express-rodened-demo-embeded",
+  "version": "1.0.0",
+  "description": "Express Node-Red demo embeded on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "RodeNed Team",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "build": "yarn"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-red": "1.0.2"
+  },
+  "engines": {
+    "node": ">=10 <11"
+  }
+}
