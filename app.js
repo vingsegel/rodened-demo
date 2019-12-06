@@ -37,6 +37,7 @@ var settings = {
         enabled: false
     }
 },
+    httpNodeCors: { origin: "*", methods: ['GET','PUT','POST','DELETE'] },
     functionGlobalContext: { }    // enables global context
 };
 
