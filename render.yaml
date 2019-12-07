@@ -4,3 +4,7 @@ services:
   env: node
   buildCommand: yarn && yarn build
   startCommand: node app.js
+  disk:
+    name: node-red-data
+    mountPath: /data/
+    sizeGB: 5
