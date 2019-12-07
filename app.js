@@ -15,7 +15,7 @@ var server = http.createServer(app);
 var settings = {
     httpAdminRoot:"/",
     httpNodeRoot: "/api",
-    //userDir: "/data/",
+    userDir: "/data/",
     editorTheme: {
     page: {
             title: "Rodened",
