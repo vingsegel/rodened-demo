@@ -5,6 +5,6 @@ services:
   buildCommand: yarn && yarn build
   startCommand: node app.js
   disk:
-    name: node-red-data
+    name: rodened-data
     mountPath: /data/
     sizeGB: 5
