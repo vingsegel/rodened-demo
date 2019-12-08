@@ -34,7 +34,7 @@ var settings = {
             icon: null // "/absolute/path/to/deploy/button/image" or null to remove image
         },   
     projects: {
-        enabled: false
+        enabled: true
     }
 },
     httpNodeCors: { origin: "*", methods: ['GET','PUT','POST','DELETE'] },
@@ -49,6 +49,8 @@ app.use(settings.httpAdminRoot,RED.httpAdmin);
 
 // Serve the http nodes UI from /api
 app.use(settings.httpNodeRoot,RED.httpNode);
+
+app.disable('x-powered-by')
 
 server.listen(8000);
 
