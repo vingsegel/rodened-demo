@@ -20,7 +20,7 @@
     "node-red-dashboard": "2.19.2",
     "node-red-node-base64": "0.2.0",
     "node-red-node-rbe": "0.2.6",
-    "node-red-node-tail": "0.0.3",
+    "node-red-node-tail": "0.0.3"
   },
   "engines": {
     "node": ">=10 <11"
