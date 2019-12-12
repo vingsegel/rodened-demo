@@ -19,7 +19,7 @@ var settings = {
     editorTheme: {
     page: {
             title: "Rodened",
-            //favicon: " ",
+            favicon: "/opt/render/project/src/favicon.ico",
             //css: " ",
             //scripts: [ "/absolute/path/to/custom/script/file", "/another/script/file"]
         },
